@@ -13,7 +13,7 @@ public:
 
     void draw(Painter& painter) const;
 
-    void setCenter(const Point& center);
+    void setCenter(const Point& center); 
     Point getCenter() const;
 
     double getRadius() const;
@@ -23,6 +23,7 @@ public:
     bool ifCollidable() const;
     
 private:
+
     Velocity velocity_;
     Point center_;
     double radius_;
