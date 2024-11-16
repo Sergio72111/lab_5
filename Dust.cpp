@@ -64,7 +64,7 @@ double Dust::getRadius() const {
  * эквивалентна объему: PI * radius^3 * 4. / 3.
  */
 double Dust::getMass() const {
-    return  M_PI * pow(radius_, 3) * 4. / 3.;
+    return  M_PI * pow(radius_, 3) * 4. / 3.;  
 }
 
 bool Dust::ifAlive() const {
